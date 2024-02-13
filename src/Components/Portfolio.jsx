@@ -31,16 +31,16 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "College Management Chatbot",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Developed a chatbot using natural language processing (NLP) to assist with college management tasks. The chatbot can answer queries, provide information about courses, and more.Technologies: Python, NLTK, Dialogflow, tkinter, neural networks, JSON 🐍.",
+    url: "https://github.com/Mihirchauhan0709/chatbot-for-collage-management",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Sign Language Recognition using LSTM",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Implemented a deep learning model (LSTM) to recognize sign language gestures. The model can convert sign language gestures into text. Technologies: Python, TensorFlow, LSTM, pandas, OpenCV 🧠",
+    url: "https://github.com/Mihirchauhan0709/Sign-language-recognition",
   },
   {
     title: "My Resume Site",
@@ -49,9 +49,9 @@ const projectList = [
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Stock Market Analysis",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+      "Conducted an in-depth analysis of stock market data. Explored historical stock prices, performed technical analysis, and implemented predictive models. Technologies: Python, Pandas, Matplotlib, Scikit-Learn 📈.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];
