@@ -12,7 +12,11 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  /* add a smooth scroll */
+  scroll-behavior: smooth;
 }
+
+
 
 div#main {
   display: flex;
@@ -123,3 +127,4 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+

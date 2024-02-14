@@ -1,0 +1,46 @@
+/* About.css */
+
+.content-container {
+    background-color: white;
+    width: 80%;
+    padding: 2rem;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  .skills-list {
+    text-align: left;
+    columns: 2;
+    font-size: 1.25rem;
+    margin: 2rem 3rem;
+    gap: 3rem;
+  }
+  
+  /* Media Query for Tablets */
+  @media screen and (max-width: 768px) {
+    .content-container {
+      width: 90%;
+    }
+  
+    .skills-list {
+      columns: 1;
+    }
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media screen and (max-width: 480px) {
+    .content-container {
+      width: 100%;
+    }
+  
+    /* Additional styles for smaller screens */
+    .large {
+      font-size: 1.1rem;
+    }
+  
+    /* Adjust padding for smaller screens */
+    .content-container p {
+      padding: 1rem 0;
+    }
+  }
+  

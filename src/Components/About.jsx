@@ -5,6 +5,7 @@
  */
 
 import React from "react";
+import "./About.css";
 
 /**
  * About background image
@@ -61,33 +62,17 @@ const About = () => {
   return (
     <section className="padding" id="about">
       <img className="background" src={image} alt={imageAltText} />
-      <div
-        style={{
-          backgroundColor: "white",
-          width: "50%",
-          padding: "4rem",
-          margin: "3rem auto",
-          textAlign: "center",
-        }}
-      >
+      <div className="content-container">
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
+        <ul className="skills-list">
           {skillsList.map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p>{detailOrQuote}</p>
       </div>
     </section>
   );
