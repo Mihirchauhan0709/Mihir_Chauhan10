@@ -1,46 +1,62 @@
 /* About.css */
 
+.padding {
+    padding: 50px 0; /* Adjust padding as needed */
+  }
+  
+.background {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
 .content-container {
-    background-color: white;
-    width: 80%;
-    padding: 2rem;
-    margin: 2rem auto;
-    text-align: center;
+    position: relative;
+    z-index: 1;
+    max-width: 800px; /* Set a max-width for the container */
+    margin: 0 auto; /* Center the container */
+    word-wrap: break-word; /* Add this line to enable word wrapping */
   }
   
-  .skills-list {
-    text-align: left;
-    columns: 2;
-    font-size: 1.25rem;
-    margin: 2rem 3rem;
-    gap: 3rem;
+  
+.large {
+    font-size: 1.2em; /* Adjust font size as needed */
+    word-wrap: break-word;
   }
   
-  /* Media Query for Tablets */
-  @media screen and (max-width: 768px) {
-    .content-container {
-      width: 90%;
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+.skills-list li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Media Query for Tablets and Smaller Screens */
+@media screen and (max-width: 768px) {
+    .padding {
+      padding: 30px 0; /* Adjust padding for smaller screens */
     }
   
-    .skills-list {
-      columns: 1;
-    }
-  }
-  
-  /* Media Query for Mobile Devices */
-  @media screen and (max-width: 480px) {
-    .content-container {
+.background {
+      position: static;
       width: 100%;
+      height: auto;
     }
   
-    /* Additional styles for smaller screens */
-    .large {
-      font-size: 1.1rem;
+.large {
+      font-size: 1em; /* Adjust font size for smaller screens */
     }
   
-    /* Adjust padding for smaller screens */
-    .content-container p {
-      padding: 1rem 0;
+.content-container {
+      max-width: 100%; /* Full width for smaller screens */
+      padding: 0 20px; /* Add padding to prevent cutting off */
     }
   }
   
