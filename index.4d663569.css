@@ -2,6 +2,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   font-family: Montserrat, sans-serif;
@@ -116,6 +117,70 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+.content-container {
+  width: 80%;
+  text-align: center;
+  background-color: #fff;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.skills-list {
+  text-align: left;
+  columns: 2;
+  gap: 3rem;
+  margin: 2rem 3rem;
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .content-container {
+    width: 90%;
+  }
+
+  .skills-list {
+    columns: 1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content-container {
+    width: 100%;
+  }
+
+  .large {
+    font-size: 1.1rem;
+  }
+
+  .content-container p {
+    padding: 1rem 0;
+  }
+}
+
+.container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 48%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.image-container {
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
