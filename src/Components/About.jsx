@@ -55,8 +55,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  
-"I am driven by a passion for solving complex problems through innovative approaches in data science. Leveraging my skills, I continuously seek new and improved ways to make the power of data accessible and impactful for all.";
+  "I am driven by a passion for solving complex problems through innovative approaches in data science. Leveraging my skills, I continuously seek new and improved ways to make the power of data accessible and impactful for all.";
 
 const About = () => {
   return (
