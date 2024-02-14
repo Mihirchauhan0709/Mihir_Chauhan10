@@ -28651,7 +28651,7 @@ const projectList = [
     {
         title: "Stock Market Analysis",
         description: "Conducted an in-depth analysis of stock market data. Explored historical stock prices, performed technical analysis, and implemented predictive models. Technologies: Python, Pandas, Matplotlib, Scikit-Learn \uD83D\uDCC8.",
-        url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
+        url: "https://github.com/Mihirchauhan0709/Stock-Market-analysis"
     }, 
 ];
 const Portfolio = ()=>{

@@ -119,43 +119,61 @@ img.socialIcon {
   width: 30px;
 }
 
+.padding {
+  padding: 50px 0;
+}
+
+.background {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .content-container {
-  width: 80%;
-  text-align: center;
-  background-color: #fff;
-  margin: 2rem auto;
-  padding: 2rem;
+  z-index: 1;
+  max-width: 800px;
+  word-wrap: break-word;
+  margin: 0 auto;
+  position: relative;
+}
+
+.large {
+  word-wrap: break-word;
+  font-size: 1.2em;
 }
 
 .skills-list {
-  text-align: left;
-  columns: 2;
-  gap: 3rem;
-  margin: 2rem 3rem;
-  font-size: 1.25rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skills-list li {
+  margin-right: 10px;
+  display: inline-block;
 }
 
 @media screen and (max-width: 768px) {
-  .content-container {
-    width: 90%;
+  .padding {
+    padding: 30px 0;
   }
 
-  .skills-list {
-    columns: 1;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .content-container {
+  .background {
     width: 100%;
+    height: auto;
+    position: static;
   }
 
   .large {
-    font-size: 1.1rem;
+    font-size: 1em;
   }
 
-  .content-container p {
-    padding: 1rem 0;
+  .content-container {
+    max-width: 100%;
+    padding: 0 20px;
   }
 }
 
