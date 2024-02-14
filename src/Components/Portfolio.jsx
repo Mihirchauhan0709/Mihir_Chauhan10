@@ -20,8 +20,7 @@ const projectList = [
   },
   {
     title: "My Resume Site",
-    description:
-      "Includes my experience, skills and Projects.",
+    description: "Includes my experience, skills and Projects.",
     url: "https://mihirchauhan.tiiny.site",
   },
   {
