@@ -59,4 +59,26 @@
       padding: 0 20px; /* Add padding to prevent cutting off */
     }
   }
+
+  .skills-list {
+    text-align: left;
+    columns: 2;
+    font-size: 1.25rem;
+    margin: 2rem 3rem;
+    gap: 3rem;
+  }
+  
+  /* For tablets */
+  @media (max-width: 768px) {
+    .skills-list {
+      columns: 1;
+    }
+  }
+  
+  /* For mobile phones */
+  @media (max-width: 480px) {
+    .skills-list {
+      columns: 1;
+    }
+  }
   
