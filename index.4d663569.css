@@ -147,13 +147,17 @@ img.socialIcon {
 }
 
 .skills-list {
+  text-align: left;
+  columns: 2;
+  gap: 3rem;
+  margin: 2rem 3rem;
   padding: 0;
-  list-style-type: none;
+  font-size: 1.25rem;
+  list-style-type: disc;
 }
 
 .skills-list li {
   margin-right: 10px;
-  display: inline-block;
 }
 
 @media screen and (max-width: 768px) {
@@ -175,6 +179,60 @@ img.socialIcon {
     max-width: 100%;
     padding: 0 20px;
   }
+
+  .skills-list {
+    columns: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-list {
+    columns: 1;
+  }
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  #home h1 {
+    max-width: none;
+    font-size: 6rem;
+    top: 2rem;
+    left: 1rem;
+  }
+
+  #home h2 {
+    max-width: none;
+    font-size: 2rem;
+    font-style: italic;
+    top: 2rem;
+    left: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  #home h1 {
+    max-width: none;
+    font-size: 4rem;
+    font-weight: bold;
+    top: 2rem;
+    left: 1rem;
+  }
+
+  #home h2 {
+    max-width: none;
+    font-size: 1rem;
+    font-style: italic;
+    top: 2rem;
+    left: 1rem;
+  }
 }
 
 .container {
@@ -191,7 +249,7 @@ img.socialIcon {
 }
 
 .image-container {
-  max-width: 40%;
+  max-width: 60%;
   margin: 0 auto;
 }
 
