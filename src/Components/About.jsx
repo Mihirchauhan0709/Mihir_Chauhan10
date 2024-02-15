@@ -5,16 +5,16 @@
  */
 
 import React from "react";
-import "./About.css";
+import './About.css';
 
 /**
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that
+ * directory and import here for use. Then, set imageAltText to string that 
  * represents what you see in that image.
  *
- * Need an image? Check out https://unsplash.com to download a image you
+ * Need an image? Check out https://unsplash.com to download a image you 
  * freely use on your site.
  */
 import image from "../images/motion-background.jpg";
@@ -25,7 +25,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a Data Science enthusiast studying at Mumbai University. I love exploring and analyzing data to extract insights and create models.";
+"I'm a Data Science enthusiast studying at Mumbai University. I love exploring and analyzing data to extract insights and create models.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -55,7 +55,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am driven by a passion for solving complex problems through innovative approaches in data science. Leveraging my skills, I continuously seek new and improved ways to make the power of data accessible and impactful for all.";
+"I am driven by a passion for solving complex problems through innovative approaches in data science. Leveraging my skills, I continuously seek new and improved ways to make the power of data accessible and impactful for all.";
 
 const About = () => {
   return (

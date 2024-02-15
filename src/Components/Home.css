@@ -1,0 +1,43 @@
+h1{
+    color: white;
+}
+h2{
+    color: white;
+    font-style: italic; 
+}
+@media (max-width: 600px) {
+    #home h1 {
+      top: 2rem;
+      left: 1rem;
+      max-width: none;
+      font-size: 6rem; /* Adjust this value as needed */
+      /* font-style: italic; Example style */
+    }
+  
+    #home h2 {
+      top: 2rem;
+      left: 1rem;
+      max-width: none;
+      font-size: 2rem; /* Adjust this value as needed */
+      /* font-weight: bold; Example style */
+      font-style: italic; 
+    }
+  }
+@media (max-width: 380px) {
+    #home h1 {
+      top: 2rem;
+      left: 1rem;
+      max-width: none;
+      font-size: 4rem; /* Adjust this value as needed */
+      /* font-style: italic; Example style */
+      font-weight: bold;
+    }
+  
+    #home h2 {
+      top: 2rem;
+      left: 1rem;
+      max-width: none;
+      font-size: 1rem; /* Adjust this value as needed */
+      font-style: italic; 
+    }
+  }

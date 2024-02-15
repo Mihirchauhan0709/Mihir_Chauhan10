@@ -29,6 +29,12 @@ const projectList = [
       "Conducted an in-depth analysis of stock market data. Explored historical stock prices, performed technical analysis, and implemented predictive models. Technologies: Python, Pandas, Matplotlib, Scikit-Learn 📈.",
     url: "https://github.com/Mihirchauhan0709/Stock-Market-analysis",
   },
+  {
+    title: "Sales insights using Power bi",
+    description:
+      "The Power BI project for Atlics Hardware involves extracting data from a MySQL database, performing ETL processes for data cleanliness, and creating an interactive dashboard. This dashboard provides key insights into the company's performance, showcasing metrics like total revenue and sales, top products and customers, and revenue by market. It also allows users to toggle between different time periods for detailed analysis. This project effectively combines data extraction, ETL processes, and data visualization to aid in data-driven decision-making.",
+    url: "https://github.com/Mihirchauhan0709/",
+  },
 ];
 
 const Portfolio = () => {
